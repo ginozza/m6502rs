@@ -31,4 +31,4 @@ The chip uses the index and stack registers effectively with several addressing 
 
 Addressing modes also include implied (1-byte instructions); absolute (3 bytes); indexed absolute (3 bytes); indexed zero-page (2 bytes); relative (2 bytes); accumulator (1); indirect,x and indirect,y (2); and immediate (2). Absolute mode is a general-purpose mode. Branch instructions use a signed 8-bit offset relative to the instruction after the branch; the numerical range −128..127 therefore translates to 128 bytes backward and 127 bytes forward from the instruction following the branch (which is 126 bytes backward and 129 bytes forward from the start of the branch instruction). Accumulator mode operates on the accumulator register and does not need any operand data. Immediate mode uses an 8-bit literal operand.
 
-
+[Wikipedia](https://en.wikipedia.org/wiki/MOS_Technology_6502)
