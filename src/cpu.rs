@@ -220,7 +220,7 @@ impl CPU {
                     // Write return address (PC - 1) to the stack.
                     memory.write_word(self.pc.wrapping_sub(1), self.sp as u32, &mut cycles);
                     self.pc = sub_addr;
-                    self.sp = self.sp.wrapping_add(1);
+                    self.sp = self.sp.wrapping_add(2);
                     cycles = cycles.saturating_sub(1);
                 }
                 _ => {
